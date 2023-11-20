@@ -12,8 +12,8 @@ def main():
     encrypted_text = encryption_handler.encrypt(text_to_encrypt)
     print(f"Texte chiffré : {encrypted_text}")
 
-    # decrypted_text = encryption_handler.decrypt(encrypted_text)
-    # print(f"Texte déchiffré : {decrypted_text}")
+     decrypted_text = encryption_handler.decrypt(encrypted_text)
+     print(f"Texte déchiffré : {decrypted_text}")
 
 if __name__ == "__main__":
     main()
