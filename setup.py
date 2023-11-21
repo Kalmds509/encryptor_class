@@ -1,4 +1,4 @@
-import setuptools twine
+import setuptools 
 setuptools.setup(
  name='Encryptor_class',
  version='0.0.1',
